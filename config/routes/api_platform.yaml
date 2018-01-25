@@ -2,3 +2,9 @@ api_platform:
     resource: .
     type: api_platform
     prefix: /api
+#Entity\User:
+#itemOperations:
+#   post:
+#        method: 'POST'
+#   special:
+#       route_name: 'user_manager'

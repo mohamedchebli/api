@@ -1,3 +1,11 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+#user_add:
+#    path: '/users'
+#   methods:  ['POST']
+#   defaults:
+#       _controller: 'App:User:add'
+#       _api_resource_class: 'Entity\User'
+#       _api_item_operation_name: 'add'

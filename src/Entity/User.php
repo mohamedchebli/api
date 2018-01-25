@@ -5,12 +5,9 @@ use Doctrine\ORM\Mapping as ORM;
 use ApiPlatform\Core\Annotation\ApiResource;
 
 /**
+ * @ApiResource
+ *
  * @ORM\Entity
- /**
- * @ApiResource(itemOperations={
- *     "get"={"method"="GET", "path"="/users/{id}", "requirements"={"id"="\d+"}},
- *     "put"={"method"="PUT", "path"="/users/{id}/update"},
- * })
  */
 class User
 {
